@@ -1,0 +1,1 @@
+import IPlugin from '../iplugin';

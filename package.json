@@ -1,0 +1,40 @@
+{
+  "name": "streamco",
+  "version": "0.1.0",
+  "description": "Fetch data from internet. Streamco was designed to fetch data via different protocols",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JSBizon/streamco.git"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "keywords": [
+    "request",
+    "fetch",
+    "curl",
+    "cookie store"
+  ],
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "mocha": "~2.2.1",
+    "grunt": "~0.4",
+    "grunt-cli": "~0.1.13",
+    "grunt-mocha-test": "~0.12.2",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-jsxhint": "~0.6.0"
+  },
+  "dependencies": {
+    "baconjs": "~0.7.64",
+    "babel": "~5.5.3",
+  },
+  "author": "Dmitry Nizovtsev (https://github.com/JSBizon)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JSBizon/file-cookie-store/issues"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
