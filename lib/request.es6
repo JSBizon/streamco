@@ -1,33 +1,41 @@
-class Request {
+export class Request {
+
     constructor(transport) {
         this.transport = transport;
     }
 
-    isSent() {
-
-    }
-
     send() {
-        
-    }
-
-    setPlugin() {
-        
-    }
-
-    post(uri) {
 
     }
 
-    delete(uri) {
-        
+    use(middleware) {
+        return this;
     }
 
-    put(uri) {
+    clone() {
 
     }
 
-    get(uri) {
+
+    set body_stream () {
 
     }
+
+    set header_stream () {
+
+    }
+
+    uri (uri) {
+
+    }
+
+    method(request_method) {
+
+    }
+
+    status() {
+
+    }
+
+
 }

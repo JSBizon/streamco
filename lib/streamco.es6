@@ -1,13 +1,21 @@
+import { isString } from "./helpers";
+
 export class Streamco {
 
-    constructor({transports : [], parallel_requests = 10 ,plugins =[]}) {
-        this.transports = transports;
-        this.plugins = plugins;
-        this.parallel_requests = parallel_requests;
+    constructor({transports = [], parallel_requests = 10,
+                middlewares = [], debug_subrequests = false }) {
+
+        if ( ! isString(arguments[0]) ) {
+            this.transports = transports;
+            this.plugins = plugins;
+            this.parallel_requests = parallel_requests;
+        } else {
+            //load config file
+        }
     }
 
     _configureRequest(request) {
-        
+
         return request;
     }
 
@@ -20,7 +28,7 @@ export class Streamco {
     }
 
     delete(uri) {
-        
+
     }
 
     put(uri) {
@@ -32,6 +40,10 @@ export class Streamco {
     }
 
     getTransport(uri) {
+
+    }
+
+    use(middleware) {
 
     }
 }

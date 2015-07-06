@@ -1,4 +1,4 @@
-class IPlugin {
+export class Middleware {
     constructor(streamco, request) {
         this.streamco = streamco;
         this.request = request;

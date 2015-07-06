@@ -23,16 +23,15 @@
     "grunt-cli": "~0.1.13",
     "grunt-mocha-test": "~0.12.2",
     "grunt-contrib-jshint": "~0.10.0",
-    "grunt-jsxhint": "~0.6.0"
   },
   "dependencies": {
     "baconjs": "~0.7.64",
-    "babel": "~5.5.3",
+    "babel": "~5.5.3"
   },
   "author": "Dmitry Nizovtsev (https://github.com/JSBizon)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JSBizon/file-cookie-store/issues"
+    "url": "https://github.com/JSBizon/streamco/issues"
   },
   "directories": {
     "test": "test"
